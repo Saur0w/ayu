@@ -9,13 +9,13 @@ import DataChart from "./cards/Graph";
 import styles from "./style.module.css";
 
 const sensors = [
-    { label: "Temperature", unit: "°C",   icon: "🌡️" },
-    { label: "Humidity",    unit: "%",    icon: "💧" },
+    { label: "Temperature", unit: "°C", icon: "🌡️" },
+    { label: "Humidity", unit: "%", icon: "💧" },
     { label: "Soil Moisture", unit: "%", icon: "🌱" },
-    { label: "Rainfall",   unit: "mm",   icon: "🌧️" },
+    { label: "Rainfall", unit: "mm", icon: "🌧️" },
     { label: "Sunlight Hours", unit: "h", icon: "☀️" },
     { label: "Wind Speed", unit: "km/h", icon: "💨" },
-    { label: "Soil pH",    unit: "",     icon: "⚗️" },
+    { label: "Soil pH", unit: "", icon: "⚗️" },
 ];
 
 export default function Dashboard() {
