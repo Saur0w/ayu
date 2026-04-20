@@ -1,14 +1,14 @@
-import React, {Component} from 'react';
+import { Outlet } from 'react-router-dom';
 import styles from "./style.module.css";
 
-class Landing extends Component {
-    render() {
-        return (
-            <div className={styles.landing}>
-
+export default function Landing() {
+    return (
+        <div className={styles.shell}>
+            <div className={styles.main}>
+                <main className={styles.content}>
+                    <Outlet />
+                </main>
             </div>
-        );
-    }
+        </div>
+    )
 }
-
-export default Landing;
